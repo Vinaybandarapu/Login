@@ -1,0 +1,52 @@
+{
+    "app": {
+        "appName": "PRI",
+        "noInternet": "No Internet connection. Make sure that Wi-Fi or mobile data is turned on,then try again",
+        "somethingWentWrong": "Something went wrong.Try Again later",
+        "logoutMsg": "Do you want to Logout ?"
+    },
+    "inputPlaceHolder": {
+       "userName": "User name",
+       "password": "Password",
+       "mobileNumber": "Mobile No",
+       "usernameEmail": "User name",
+       "generateOTP": "Generate OTP",
+       "OTP": "OTP",
+       "resendOtp": "Resend Otp",
+       "enterOtp": "Enter Otp"
+    },
+    "inputValidation": {
+        "userNameValidation1": "User name can only contain a-z,0-9, _ , . and @",
+        "userNameValidation2": "User name cannot begin with _ or . and together",
+        "userNameValidation3": "User name can contain only 6 to 30 characters",
+        "usernameNotValid": "User name not valid",
+        "userNameRegExpValidation": "User name only contain a-z, 0-9, _ and . and must start with letter",
+        "userNameMin": "User name length should be greater than or equal to 6",
+        "userNameMax": "User name length should be less than 20",
+        "userNameReq": "Please enter user name",
+        "passwordRegExpValidation": "Password only contain a-z, 0-9, _ and must start with letter",
+        "passwordMin": "Password length should be greater than 5",
+        "passwordMax": "Password length should be less than 15",
+        "passwordReq": "Please enter password",
+        "mobileMatch": "Mobile number is not valid (must start with 6,7,8 9)",
+        "mobileRequired": "Mobile number is a required field",
+        "onlyDigit": "Only Digit",
+        "otpLength": "otp length should be equal to 6",
+        "otpRequired": "otp is a required field",
+        "otpSendMessage": "Enter the Otp which sent to mobile number"
+    },
+    "errorMsg": {
+        "somethingWentWrong": "Something went wrong",
+        "userNamePasswordWrong": "User name and password not correct",
+        "noUserFound": "No User found",
+        "somethingWrongTryAgain": "Something went wrong. Try Again"
+
+    },
+    "loginScreen": {
+        "login": "Login",
+        "forgotPassword": "Forgot Password ?",
+        "registerNow": "Register Now",
+        "parentLogin": "Parent Login",
+        "studentLogin": "Student Login"
+    }
+}
