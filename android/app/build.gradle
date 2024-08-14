@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
 /**
@@ -120,4 +121,15 @@ dependencies {
     }
 }
 
+project.ext.react = [
+        enableHermes: true,
+        bundleInDebug: true //<--- make sure this is set to true
+]
+
+// also add this to force rebuild reanimated:
+project.ext.reanimated = [
+        buildFromSource: true
+]
+
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
